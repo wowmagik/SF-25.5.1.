@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 def test_show_all_pets():
    # Вводим email
-   pytest.driver.find_element_by_id('email').send_keys('a@bk.ru')
+   pytest.driver.find_element_by_id('email').send_keys('lttelove92@gmail.com')
    # Вводим пароль
    pytest.driver.find_element_by_id('pass').send_keys('12345')
 
@@ -36,7 +36,7 @@ def test_show_all_pets():
 
 def test_show_my_pets():
    # Вводим email, пароль, открываем главную страницу сайта
-   pytest.driver.find_element_by_id('email').send_keys('a@bk.ru')
+   pytest.driver.find_element_by_id('email').send_keys('lttelove92@gmail.com')
    pytest.driver.find_element_by_id('pass').send_keys('12345')
    pytest.driver.find_element_by_css_selector('button[type="submit"]').click()
 
